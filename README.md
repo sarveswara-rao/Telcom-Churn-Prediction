@@ -1,5 +1,5 @@
 # Telcom Churn Prediction
-Project description: Based on the Customer Behavior data we have to predict whenter a customer will churn or not.
+Project description: Predict customer churn using a Telco customer churn dataset.
 
 ### Library requirements
 * Numpy, pandas, Scikit-learn, matplotlib, seaborn
@@ -9,10 +9,10 @@ Project description: Based on the Customer Behavior data we have to predict when
 * Description: Dataset Contains 8 building paramters as inputs and two target variables namely Cooling load and Heating Load
 
 ## Feature Selection
-* [F Score](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.f_regression.html#sklearn.feature_selection.f_regression)!
-* [Mutual Infomation](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_regression.html#sklearn.feature_selection.mutual_info_regression)!
+* [F Score](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.f_classif.html)!
+* [Mutual Infomation](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_classif.html)!
 
-## Regression Algorithms Used
+## Classification Algorithms Used
 * Logistic Regression
 * Support Vector Machine
 * Decision Trees
